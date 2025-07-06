@@ -1,0 +1,182 @@
+/* @media(max-width: 480px)
+{
+.header{
+  flex-direction:column;
+  padding: 10px 5%;
+  text-align: center;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+
+}
+
+.home{
+  flex-direction: column;
+  height: auto;
+  padding:100px 5% 50px;
+  background-position: center top;
+
+}
+.home-content h1{
+  font-size: 36px;
+}
+.home-content h3{
+  font-size: 24px;
+}
+.home-content p{
+  font-size: 16px;
+}
+.about{
+  grid-template-columns: 1fr;
+  padding:  0 5%;
+  text-align: center;
+}
+.about.img img{
+  max-width: 100%;
+  height: auto;
+}
+.services-list{
+  grid-template-columns: 1fr;
+}
+.container1{
+margin-left: 0;
+padding: 40px 20px;
+width: 100%;
+}
+.contact{
+  grid-template-columns: 1fr;
+  padding: 20px;
+  margin:50px 0;
+}
+.contact-text h2{
+  font-size: 40px;
+}
+.contact-form form input,
+.contact-form textarea{
+  width:100%;
+}
+.main-text h2{
+font-size: 40px;
+}
+.portfolio-content{
+  grid-template-columns: 1fr;
+}
+.top{
+  right: 1rem;
+  bottom: 1rem;
+}
+}
+@media(min-width :469px)and (max-width:1200px)
+{
+  .header{
+    padding: 15px 8%;
+  }
+  .home{
+    padding: 70px 8% 0;
+  }
+  .about{
+    padding: 0 8%;
+  }
+  .container1{
+    padding: 60px;
+    width: 100%;
+  }
+  .contact{
+    padding: 60px 8%;
+    gap: 2rem;
+  }
+  .portfolio-content{grid-template-columns: repeat(2,1fr);
+  }
+} */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 2%;
+  }
+  .logo {
+    font-size: 18px;
+  }
+  .navbar {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .navbar a {
+    font-size: 15px;
+    margin: 5px 8px 0 0;
+  }
+  .home {
+    flex-direction: column;
+    padding: 30px 2% 0;
+    height: auto;
+    text-align: center;
+  }
+  .home-content {
+    max-width: 100%;
+  }
+  .home-content h1 {
+    font-size: 26px;
+  }
+  .home-content h3 {
+    font-size: 16px;
+  }
+  .btn-box, .btn-box1 {
+    padding: 10px 18px;
+    font-size: 13px;
+  }
+  .about {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1rem;
+  }
+  .about.img img {
+    max-width: 95vw;
+    padding-bottom: 10px;
+  }
+  .container1 {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px 5px;
+    height: auto;
+  }
+  .heading1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .Technical-bars .bar .info span {
+    font-size: 12px;
+  }
+  .main-text h2,
+  .sub-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .services-list {
+    grid-template-columns: 1fr;
+  }
+  .portfolio-content {
+    grid-template-columns: 1fr;
+  }
+  .contact {
+    grid-template-columns: 1fr;
+    margin: 30px 0;
+    gap: 1rem;
+    padding-left: 0;
+  }
+  .contact-text h2 {
+    font-size: 22px;
+  }
+  .contact-form textarea {
+    height: 80px;
+  }
+  .last-text {
+    font-size: 10px;
+    padding: 8px 0;
+  }
+}
